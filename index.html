@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Texas Instruments Style Calculator</title>
+    <title>Simple Calculator</title>
   </head>
   <body>
     <div class="calculator">
@@ -27,6 +27,10 @@
         <button class="equal" onclick="calculateResult()">=</button>
         <button class="operator" onclick="appendToDisplay('+')">+</button>
         <button class="square-root" onclick="calculateSquareRoot()">√</button>
+      </div>
+      <div class="history">
+        <h3>History</h3>
+        <ul id="history-list"></ul>
       </div>
     </div>
 
