@@ -68,3 +68,21 @@ button:active {
   background-color: #2196f3;
   color: white;
 }
+
+.history {
+  margin-top: 20px;
+}
+
+.history h3 {
+  margin-bottom: 5px;
+}
+
+#history-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#history-list li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
